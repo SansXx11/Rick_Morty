@@ -1,0 +1,16 @@
+.app{
+    background-color: #073138;
+    color: white;
+}
+.container-resident{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+.app__title{
+    text-align: center;
+    &:hover{
+    filter: brightness(1.2);
+    }
+}
